@@ -1,0 +1,47 @@
+.menu {
+  /* add correct code to place the menu correctly.*/
+
+  background-color: rgb(185, 113, 113);
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  display:flex;
+  justify-content: space-between;
+}
+
+.header{
+  display:flex;
+}
+
+.languages{
+  display:flex;
+  justify-content: space-around;
+ flex-wrap: wrap;
+ -ms-flex-align:stretch;
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.grid img {
+  display:flex;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.origami {
+  display:flex;
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
